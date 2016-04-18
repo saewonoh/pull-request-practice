@@ -1,0 +1,192 @@
+.playfair-font {
+  font-family: 'Quicksand', sans-serif;
+}
+.head-container {
+    width: 873px;
+    overflow: auto;
+    margin: 0 auto;
+}
+.main {
+  overflow: auto;
+  margin: 0 auto;
+  width: 800px;
+  padding: 75px 50px 10px;
+  height: 100%;
+  min-height: 2000px;
+  background-color: #fafafa;
+  border-left: 2px dotted #000;
+  border-right: 2px dotted;
+}
+body {
+  margin: 0;
+  background-image: url("images/fleur_bg.gif");
+  background-size: 80px;
+
+}
+h2 {
+}
+#header {
+  position: fixed;
+  background-color: #000;
+  top: 0;
+  right: 0;
+  color: #fff;
+  width: 100%;
+
+}
+.blue {
+  color: #3399FF;
+
+}
+#header ul{
+  list-style-type: none;
+
+}
+#menu_image {
+  float: left;
+}
+#header img {
+  margin-top: 7px;
+}
+#menu {
+  float: right;
+  
+}
+#header li{
+  float: left;
+  padding-left: 10px;
+  padding-bottom: 10px ;
+  margin-left: 10px;
+  border-left: 1px solid #fff;
+}
+#header li a {
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+#logo {
+  background: #fafafa url("images/old_time_lion.png") no-repeat 0 0;
+  background-size: 45%;
+  height: 300px;
+  border-bottom: 1px solid 
+}
+#logotext {
+  float: right;
+  margin-top: 125px;
+
+}
+#logo h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #3399FF;
+  border-bottom: 1px solid #3399FF;
+  text-decoration: none;
+}
+#logo h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+.separator {
+  width: 100%;
+  background: #fafafa url("images/separator.png") no-repeat 0 0;
+  height: 45px;
+  margin: 10px 0 10px;
+  background-size: 100px;
+  
+}
+.curl {
+  background: #fafafa url("images/separator.png") no-repeat 0 0;
+  padding-left: 116px;
+  padding-top: 10px;
+  background-size: 100px;
+}
+#gallery-inner {
+  overflow: auto;
+  width: 641px;
+  margin: 40px auto;
+}
+
+ #gallery-inner.shift-left {
+  margin-left: 116px auto;
+  width: 641px; 
+  z-index:  100px;
+  
+  
+
+
+}
+.portfolio-bg {
+  background: #fafafa url("images/scrollworkLeft.png") no-repeat bottom left;
+  background-size: 152px;
+  padding-bottom: 30px;
+}
+#mission {
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+}
+#clients {
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+}
+.portfolio-element {
+  float: left;
+  margin: 1px;
+  position: 
+   left: 50px;
+  
+}
+.portfolio-element img {
+  float: left;
+  margin: 10px;
+  width: 100px;
+
+}
+.gallery-element {
+  float: left;
+  margin: 5px;
+}
+.gallery-element img {
+    width: 150px;
+
+}
+#portfolio {
+  margin-bottom: 20px;
+}
+.dashed-border {
+  border-top: 1px dashed #000;
+}
+#footer {
+  height: 350px;
+  background: #fafafa url("images/bottom_scroll.png") no-repeat center center;
+  background-size: 80%;
+  padding-bottom: 150px;
+}
+#footer h3 {
+  font-size: 64px;
+  padding-top: 0px;
+
+}
+#footer a {
+  font-size: 25px;
+}
+.contact {
+  text-align: center;
+  padding-top: 115px;
+  
+}
+
+.contact a {
+  position: relative;
+  bottom: 50px;
+}
+
+#bottom-footer {
+  font-size: 10px;
+  text-align: right;
+
+}
+#mission #clients #portfolio {
+  padding-top: 25px;
+}
